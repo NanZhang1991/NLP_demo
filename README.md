@@ -1,2 +1,1 @@
-# Transformers_practices
-Huggingface transfomers practices
+NLP practices
