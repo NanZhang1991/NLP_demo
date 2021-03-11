@@ -1,3 +1,2 @@
-/text_calssification/data
 /text_calssification/model_dirs
-/.vscode
+*/.vscode
