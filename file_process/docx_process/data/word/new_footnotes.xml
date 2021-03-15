@@ -1,70 +1,630 @@
-<w:footnote w:id="1">
- <w:p w14:paraId="541A8FE2" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="00E675ED" w:rsidRDefault="00E675ED" w:rsidRPr="008C1184">
-  <w:pPr>
-   <w:pStyle w:val="a7"/>
-  </w:pPr>
-  <w:r w:rsidRPr="008C1184">
-   <w:rPr>
-    <w:rStyle w:val="aa"/>
-   </w:rPr>
-   <w:footnoteRef/>
-  </w:r>
-  <w:r w:rsidRPr="008C1184">
-   <w:t xml:space="preserve">
-   </w:t>
-  </w:r>
-  <w:proofErr w:type="gramStart"/>
-  <w:r w:rsidRPr="008C1184">
-   <w:t>
-    .
-   </w:t>
-  </w:r>
-  <w:r w:rsidRPr="008C1184">
-   <w:t>
-    《
-   </w:t>
-  </w:r>
-  <w:proofErr w:type="gramEnd"/>
-  <w:r w:rsidRPr="008C1184">
-   <w:t>
-    关于成立
-    测试
-    测试
-    测试
-    测试
-    测试
-    测试
-   </w:t>
-  </w:r>
-  <w:r w:rsidRPr="008C1184">
-   <w:t>
-    ‘
-   </w:t>
-  </w:r>
-  <w:r w:rsidRPr="008C1184">
-   <w:t>
-    江苏东大特种基础工程开发公司
-   </w:t>
-  </w:r>
-  <w:r w:rsidRPr="008C1184">
-   <w:t>
-    ’
-   </w:t>
-  </w:r>
-  <w:r w:rsidRPr="008C1184">
-   <w:t>
-    的报告》，
-   </w:t>
-  </w:r>
-  <w:r w:rsidRPr="008C1184">
-   <w:t>
-    1-2-1
-   </w:t>
-  </w:r>
-  <w:r w:rsidRPr="008C1184">
-   <w:t>
-    。
-   </w:t>
-  </w:r>
- </w:p>
-</w:footnote>
+<?xml version="1.0" encoding="utf-8"?>
+<w:footnotes mc:Ignorable="w14 w15 w16se w16cid w16 w16cex wp14" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+ <w:footnote w:id="-1" w:type="separator">
+  <w:p w14:paraId="43D0641C" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="008B01D0" w:rsidRDefault="008B01D0">
+   <w:r>
+    <w:separator/>
+   </w:r>
+  </w:p>
+ </w:footnote>
+ <w:footnote w:id="0" w:type="continuationSeparator">
+  <w:p w14:paraId="29ECB920" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="008B01D0" w:rsidRDefault="008B01D0">
+   <w:r>
+    <w:continuationSeparator/>
+   </w:r>
+  </w:p>
+ </w:footnote>
+ <w:footnote w:id="1">
+  <w:p w14:paraId="541A8FE2" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="00E675ED" w:rsidRDefault="00E675ED" w:rsidRPr="008C1184">
+   <w:pPr>
+    <w:pStyle w:val="a7"/>
+   </w:pPr>
+   <w:r w:rsidRPr="008C1184">
+    <w:rPr>
+     <w:rStyle w:val="aa"/>
+    </w:rPr>
+    <w:footnoteRef/>
+   </w:r>
+   <w:r w:rsidRPr="008C1184">
+    <w:t xml:space="preserve">
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramStart"/>
+   <w:r w:rsidRPr="008C1184">
+    <w:t>
+     .
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="008C1184">
+    <w:t>
+     《
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramEnd"/>
+   <w:r w:rsidRPr="008C1184">
+    <w:t>
+     关于成立
+     测试
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="008C1184">
+    <w:t>
+     ‘
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="008C1184">
+    <w:t>
+     江苏东大特种基础工程开发公司
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="008C1184">
+    <w:t>
+     ’
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="008C1184">
+    <w:t>
+     的报告》，
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="008C1184">
+    <w:t>
+     1-2-1
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="008C1184">
+    <w:t>
+     。
+    </w:t>
+   </w:r>
+  </w:p>
+ </w:footnote>
+ <w:footnote w:id="2">
+  <w:p w14:paraId="1A0EACBE" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="00E675ED" w:rsidRDefault="00E675ED" w:rsidRPr="003B3CDC">
+   <w:pPr>
+    <w:pStyle w:val="a7"/>
+   </w:pPr>
+   <w:r>
+    <w:rPr>
+     <w:rStyle w:val="aa"/>
+    </w:rPr>
+    <w:footnoteRef/>
+   </w:r>
+   <w:r>
+    <w:t xml:space="preserve">
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramStart"/>
+   <w:r>
+    <w:t>
+     .
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     《
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramEnd"/>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     联营协议书》，
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     1
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     -2-1
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     。
+    </w:t>
+   </w:r>
+  </w:p>
+ </w:footnote>
+ <w:footnote w:id="3">
+  <w:p w14:paraId="4005AE1E" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="00E675ED" w:rsidRDefault="00E675ED" w:rsidRPr="003B3CDC">
+   <w:pPr>
+    <w:pStyle w:val="a7"/>
+   </w:pPr>
+   <w:r>
+    <w:rPr>
+     <w:rStyle w:val="aa"/>
+    </w:rPr>
+    <w:footnoteRef/>
+   </w:r>
+   <w:r>
+    <w:t xml:space="preserve">
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramStart"/>
+   <w:r>
+    <w:t>
+     .
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     《
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramEnd"/>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     关于
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     成立
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     “
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     江苏
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     东大特种基础工程开发公司
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     ”
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     的
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     决定
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     》，
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     1
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     -2-1
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     。
+    </w:t>
+   </w:r>
+  </w:p>
+ </w:footnote>
+ <w:footnote w:id="4">
+  <w:p w14:paraId="34F59E79" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="00E675ED" w:rsidRDefault="00E675ED" w:rsidRPr="003B3CDC">
+   <w:pPr>
+    <w:pStyle w:val="a7"/>
+   </w:pPr>
+   <w:r>
+    <w:rPr>
+     <w:rStyle w:val="aa"/>
+    </w:rPr>
+    <w:footnoteRef/>
+   </w:r>
+   <w:r>
+    <w:t xml:space="preserve">
+     .
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="006C43A1">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     验字（
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="006C43A1">
+    <w:t>
+     94
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="006C43A1">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     ）
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="006C43A1">
+    <w:t>
+     6
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="006C43A1">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     号
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     验资证明，
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     1
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     -3-2
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     。
+    </w:t>
+   </w:r>
+  </w:p>
+ </w:footnote>
+ <w:footnote w:id="5">
+  <w:p w14:paraId="4DCD5F2C" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="00E675ED" w:rsidRDefault="00E675ED" w:rsidRPr="003B3CDC">
+   <w:pPr>
+    <w:pStyle w:val="a7"/>
+   </w:pPr>
+   <w:r>
+    <w:rPr>
+     <w:rStyle w:val="aa"/>
+    </w:rPr>
+    <w:footnoteRef/>
+   </w:r>
+   <w:r>
+    <w:t xml:space="preserve">
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramStart"/>
+   <w:r>
+    <w:t>
+     .
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="0012677D">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     《
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramEnd"/>
+   <w:r w:rsidRPr="0012677D">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     国有资产产权登记表附表》
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     ，
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     1
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     -2-1
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     。
+    </w:t>
+   </w:r>
+  </w:p>
+ </w:footnote>
+ <w:footnote w:id="6">
+  <w:p w14:paraId="5AC9054E" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="00E675ED" w:rsidRDefault="00E675ED" w:rsidRPr="003B3CDC">
+   <w:pPr>
+    <w:pStyle w:val="a7"/>
+   </w:pPr>
+   <w:r>
+    <w:rPr>
+     <w:rStyle w:val="aa"/>
+    </w:rPr>
+    <w:footnoteRef/>
+   </w:r>
+   <w:r>
+    <w:t xml:space="preserve">
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramStart"/>
+   <w:r>
+    <w:t>
+     .
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="00823C1F">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     《
+    </w:t>
+   </w:r>
+   <w:proofErr w:type="gramEnd"/>
+   <w:r w:rsidRPr="00823C1F">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     审计报告》（
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="00823C1F">
+    <w:t>
+     XYZH/2015NJA30090
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="00823C1F">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     号）
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     ，
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     1-4-4-1
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     。
+    </w:t>
+   </w:r>
+  </w:p>
+ </w:footnote>
+ <w:footnote w:id="7">
+  <w:p w14:paraId="6CDD77DF" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="00E675ED" w:rsidRDefault="00E675ED" w:rsidRPr="003B3CDC">
+   <w:pPr>
+    <w:pStyle w:val="a7"/>
+   </w:pPr>
+   <w:r>
+    <w:rPr>
+     <w:rStyle w:val="aa"/>
+    </w:rPr>
+    <w:footnoteRef/>
+   </w:r>
+   <w:r>
+    <w:t xml:space="preserve">
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="007132E7">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     《评估报告》（
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="007132E7">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     天源评报字
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="007132E7">
+    <w:t>
+     [2015]
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="007132E7">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     第
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="007132E7">
+    <w:t>
+     0199
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="007132E7">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     号）
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     ，
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     1-4-4-2
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     。
+    </w:t>
+   </w:r>
+  </w:p>
+ </w:footnote>
+ <w:footnote w:id="8">
+  <w:p w14:paraId="074C8D7E" w14:textId="77777777" w:rsidP="00E675ED" w:rsidR="00E675ED" w:rsidRDefault="00E675ED" w:rsidRPr="00515580">
+   <w:pPr>
+    <w:pStyle w:val="a7"/>
+   </w:pPr>
+   <w:r>
+    <w:rPr>
+     <w:rStyle w:val="aa"/>
+    </w:rPr>
+    <w:footnoteRef/>
+   </w:r>
+   <w:r>
+    <w:t xml:space="preserve">
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="00515580">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     《验资报告》（
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="00515580">
+    <w:t>
+     XYZH[20l5]NJA30092
+    </w:t>
+   </w:r>
+   <w:r w:rsidRPr="00515580">
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     号）
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     ，
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     1
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:t>
+     -4-4-3
+    </w:t>
+   </w:r>
+   <w:r>
+    <w:rPr>
+     <w:rFonts w:hint="eastAsia"/>
+    </w:rPr>
+    <w:t>
+     。
+    </w:t>
+   </w:r>
+  </w:p>
+ </w:footnote>
+</w:footnotes>
