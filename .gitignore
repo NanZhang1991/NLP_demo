@@ -1,2 +1,3 @@
-*[.]vscode/
-/text_calssification/model_dirs/
+.vscode/*
+/text_calssification/model_dirs/*
+*.py[cod]
