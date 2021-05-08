@@ -1,3 +1,4 @@
-.vscode/*
-/text_calssification/model_dirs/*
+.vscode/
+model_dirs/
 *.py[cod]
+word2vec/
