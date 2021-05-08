@@ -1,3 +1,4 @@
 .vscode/
 model_dirs/
 *.py[cod]
+word2vec/
