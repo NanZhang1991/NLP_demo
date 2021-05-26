@@ -3,5 +3,4 @@
 model_dirs/
 *.py[cod]
 word2vec/
-!.gitkeep
 data/
