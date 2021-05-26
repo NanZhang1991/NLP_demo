@@ -1,0 +1,8 @@
+# 忽略大的数据文件
+.vscode/
+model_dirs/
+*.py[cod]
+word2vec/
+!.gitkeep
+data/
+!file_process/docx_process/data/.gitkeep
