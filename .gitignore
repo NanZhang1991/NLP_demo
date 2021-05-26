@@ -1,4 +1,5 @@
 # 忽略大的数据文件
+
 .vscode/
 model_dirs/
 *.py[cod]
