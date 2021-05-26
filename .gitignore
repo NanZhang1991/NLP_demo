@@ -4,4 +4,4 @@ model_dirs/
 word2vec/
 !model_dirs/.gitkeep
 data/
-!data/.gitkeep
+!.gitkeep
