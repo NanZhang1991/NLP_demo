@@ -5,4 +5,4 @@ model_dirs/
 *.py[cod]
 word2vec/
 data/
-!data/data_origin.txt
+!data_origin.txt
