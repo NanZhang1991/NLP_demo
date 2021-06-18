@@ -30,12 +30,12 @@ def data_clean(df):
 train_path ='../data/百度关系抽取数据集/train_data.json'
 # train_path = '../data/百度关系抽取数据集/experiment.json']
 
-train_data = json_to_df(train_path)
+train_data = json_to_df(train_path, nrows=5000)
 print(f'Train data size: {train_data.shape}') #
 
 dev_path = '../data/百度关系抽取数据集/dev_data.json'
 # dev_path =  '../data/百度关系抽取数据集/experiment.json'
-dev_data = json_to_df(dev_path)
+dev_data = json_to_df(dev_path, nrows=5000)
 print(f'Validation data size: {dev_data.shape}') 
 
 
