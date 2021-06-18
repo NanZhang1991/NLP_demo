@@ -156,9 +156,6 @@ input_ids, attention_mask, start_tokens, end_tokens, send_s_po, object_start_tok
 = proceed_data(train_text, train_spo, p2id, tokenizer, max_length, spo_count)
 
 print(start_tokens.shape)
-index = np.where(start_tokens[5]>0)
-print(index)
-start_tokens[5][index]
 
 val_inputs = tokenizer(dev_text, max_length=max_length, padding='max_length', truncation=True, return_tensors='tf') 
 val_input_ids, val_attention_mask = val_inputs['input_ids'], val_inputs['attention_mask']
@@ -414,7 +411,7 @@ model.compile(loss={'lambda': new_loss,
                 'lambda_2': new_loss,
                 'lambda_3': new_loss},optimizer=optimizer)
 model.fit([input_ids, attention_mask, send_s_po], [start_tokens, end_tokens, object_start_tokens, object_end_tokens], \
-        epochs=10, batch_size=32, callbacks=[Metrics(model_2, model_3 ,id2p, dev_text, dev_spo, val_input_ids, val_attention_mask, tokenizer)])
+        epochs=10, batch_size=8, callbacks=[Metrics(model_2, model_3 ,id2p, dev_text, dev_spo, val_input_ids, val_attention_mask, tokenizer)])
 
 h5_path = '../model_dirs/fine_tune_relation_extraction/tf_model.h5'
 model.save_weights(h5_path)
