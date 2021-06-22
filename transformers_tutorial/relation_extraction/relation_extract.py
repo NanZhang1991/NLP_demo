@@ -1,7 +1,7 @@
 import random
 import numpy as np
 import pandas as pd
-from ast import literal_eval
+# from ast import literal_eval
 from transformers import BertTokenizer,  BertConfig, TFBertModel
 import tensorflow as tf
 from tensorflow.keras import backend as K
