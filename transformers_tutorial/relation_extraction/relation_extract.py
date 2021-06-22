@@ -424,3 +424,29 @@ checkpoint_path = '../model_dirs/fine_tune_relation_extraction/checkpoints/my_ch
 h5_path = '../model_dirs/fine_tune_relation_extraction/tf_model.h5'
 model,model_2,model_3 = build_model_2(pretrained_path, MAX_LEN, p2id)
 model.load_weights(h5_path)
+
+
+idx = 2
+x1 = [input_ids[[idx]], attention_mask[[idx]]]
+sub_start_tokens, sub_end_tokens = model_2.predict(x1)
+
+print(train_spo[idx], p2id[train_spo[idx][0]['predicate']])
+
+
+sub_start_idx = int(np.argwhere(sub_start_tokens[0,:,0] > 0.5)[0])
+sub_end_indx = int(np.argwhere(sub_end_tokens[0,:,0] > 0.5)[0])
+sub_text = tokenizer.decode(input_ids[idx][sub_start_idx:sub_end_indx+1]).replace(' ','')
+print(sub_text)
+
+x2 = [input_ids[[idx]], attention_mask[[idx]], send_s_po[[idx]]]
+obj_start_tokens, obj_end_tokens = model_3.predict(x2)
+
+
+obj_start_idx = np.argwhere(obj_start_tokens[0] > 0.5)
+obj_end_idx = np.argwhere(obj_end_tokens[0] > 0.5)
+for _start, predicate1 in obj_start_idx:
+    for _end, predicate2 in obj_end_idx:
+        if _start <= _end and predicate1 == predicate2:
+            print(_start, _end, predicate1)
+            obj_text = tokenizer.decode(input_ids[idx][_start:_end+1]).replace(' ','')
+            print(obj_text, id2p[predicate1])
