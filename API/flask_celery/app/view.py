@@ -33,9 +33,6 @@ def test():
 @appName.route('/task_start', methods=['POST'], strict_slashes=False)
 def task_start():
     data = request.get_json(force=True)
-    # taskId = data.get('taskId')
-    # fileId = data.get('fileId')
-    # details = data.get('data')
     logger.info(f"request data---------\n  data:{data}")
     task_data = {}
     #异步任务
