@@ -1,0 +1,7 @@
+{
+    "UPLOAD_FOLDER": "app/data/input",
+    "OUTPUT_FOLDER": "app/data/output",
+    "downloadFileIp": "http://192.168.100.31:8089/fileSystem/getFileUrl",
+    "uploadFileIp": "http://192.168.100.31:8089/fileSystem/uploadFile",
+    "taskCsvPath": "app/data/review_task.csv"
+}

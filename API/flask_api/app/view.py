@@ -7,18 +7,16 @@ import json
 from ast import literal_eval
 import pandas as pd
 from flask import Blueprint, request, send_file, send_from_directory, make_response, jsonify, url_for, current_app
-from .log import logger
-from .main import Comment
-from .data_process.input_handling import allowed_file
-from .data_process.dataload import load_json, load_task
-from .exception import CustomException
+from .common.log import logger
+from .common.dataload import load_json
+from .common.exception import CustomException
+from .common.fileCheck import allowed_file
 from .config.config import log_dir
 
 logger = logger(os.path.join(log_dir, 'view.log'), __name__)
+appName = Blueprint("docx/appName", __name__, url_prefix='/docx/appName')
 
-operation = Blueprint("docx/operation", __name__, url_prefix='/docx/operation')
-
-json_path = 'docx_operation/config/view_config.json'
+json_path = 'app/config/view_config.json'
 view_config = load_json(json_path)
 UPLOAD_FOLDER = view_config.get('UPLOAD_FOLDER')
 OUTPUT_FOLDER = view_config.get('OUTPUT_FOLDER')
@@ -26,11 +24,11 @@ downloadfileIp = view_config.get('downloadFileIp')
 uploadFileIp = view_config.get('uploadFileIp')
 taskCsvPath = view_config.get('taskCsvPath')
 
-@operation.route('/')
+@appName.route('/')
 def test():
     return '200' 
 
-@operation.route('/spo/comment', methods=['POST'], strict_slashes=False)
+@appName.route('/spo/comment', methods=['POST'], strict_slashes=False)
 def spo_comment():
     data = json.loads(request.get_data())
     taskId = data.get('taskId')
@@ -88,7 +86,7 @@ def spo_comment():
     result = jsonify({'code':code, 'msg':message})
     return  result
 
-@operation.route('/query', methods=['GET'], strict_slashes=False)
+@appName.route('/query', methods=['GET'], strict_slashes=False)
 def query_task():
     taskId = request.args.get('taskId')
     try:

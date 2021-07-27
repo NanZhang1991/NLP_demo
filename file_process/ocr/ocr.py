@@ -1,3 +1,12 @@
+from PIL import Image
+import pytesseract
+print(pytesseract.get_languages(config=''))
+result = pytesseract.image_to_string(Image.open('data/input/test.png'), lang='chi_sim')
+# print(result)
+
+
+
+
 import os
 import paddle
 paddle.fluid.install_check.run_check()
@@ -24,3 +33,24 @@ def customer_ocr(img_path):
     im_show.save('data/output/' + os.path.basename(img_path).rsplit('.',1)[0] + '.jpg', dpi=(300.0,300.0))
 
 customer_ocr(img_path)
+
+
+def get_img_path(dir_path):
+    img_l = []
+    for root, dirs, files in os.walk(dir_path, topdown=False):
+        for name in files:
+            if name.endswith('.png'):
+                fn = os.path.join(root,name)
+                img_l.append(fn)
+    return img_l
+   
+
+
+
+if __name__=="__mian__":
+    dir_path = 'data/input/other_1983.01-03（延安工务段）'
+    img_l = get_img_path(dir_path)
+    for img_path in img_l:
+        outImgPath = 'data/output/other_1983.01-03（延安工务段）/' + os.path.basename(img_path).rsplit('.',1)[0] + '.jpg'
+        out_txt = 'data/output/other_1983.01-03（延安工务段）/' + os.path.basename(img_path).rsplit('.',1)[0] + '.txt'
+        customer_ocr(img_path, outImgPath, out_txt)
